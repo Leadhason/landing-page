@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <div className="container mx-auto">
       <Head>
-        <title>EduSync - Redefining School Management for the Future</title>
         <meta name="description" content="EduSync offers seamless operations, smarter decisions, and better outcomes for modern school management." />
       </Head>
       <main className="">
