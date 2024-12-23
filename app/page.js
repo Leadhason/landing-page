@@ -12,9 +12,6 @@ import FAQ from '../components/FAQ'
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <Head>
-        <meta name="description" content="EduSync offers seamless operations, smarter decisions, and better outcomes for modern school management." />
-      </Head>
       <main className="">
         <Hero />
         <Features />

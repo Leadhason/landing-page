@@ -35,7 +35,7 @@ export default function Features() {
   ]
 
   return (
-    <section className="py-24 bg-[#F7F7F7]">
+    <section className="py-24 bg-[#F7F7F7] px-4 md:px-6">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <div className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-[#E6E6E6] text-[#015847] mb-4">

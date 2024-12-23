@@ -28,7 +28,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col container mx-auto">
       <main className="flex-1">
         <section className="relative">
           <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
@@ -56,43 +56,43 @@ export default function Hero() {
                 Get a Demo
               </Button>
             </div>
-            <div className="mt-12">
+            <div className="mt-12 items-center justify-center">
               <p className="text-sm text-gray-500 dark:text-gray-400">More than 100+ schools partner with us</p>
-              <div className="mt-6 flex items-center justify-center gap-8 grayscale">
+              <div className="mt-2 flex items-center w-16 justify-center gap-8 grayscale ml-20">
                 <Image
                   src="/hubspot.svg"
                   alt="HubSpot"
                   width={30}
                   height={20}
-                  className="h-10 w-auto object-contain"
+                  className="h-10 w-auto "
                 />
                 <Image
                   src="/dropbox.svg"
                   alt="Dropbox"
                   width={30}
                   height={20}
-                  className="h-10 w-auto object-contain"
+                  className="h-10 w-auto object-fit"
                 />
                 <Image
                   src="/hubspot.svg"
                   alt="Square"
                   width={30}
                   height={20}
-                  className="h-10 w-auto object-contain"
+                  className="h-10 w-auto object-fit"
                 />
                 <Image
                   src="/dropbox.svg"
                   alt="Intercom"
                   width={30}
                   height={20}
-                  className="h-10 w-auto object-contain"
+                  className="h-10 w-auto object-fit"
                 />
                 <Image
                   src="/hubspot.svg"
                   alt="Grammarly"
                   width={30}
                   height={20}
-                  className="h-10 w-auto object-contain"
+                  className="h-10 w-auto object-fit"
                 />
               </div>
             </div>
