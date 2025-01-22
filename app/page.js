@@ -11,8 +11,8 @@ import FAQ from '../components/FAQ'
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <main className="">
+    <div className="flex flex-col">
+      <main className="container">
         <Hero />
         <Features />
         <Demo />
@@ -20,7 +20,6 @@ export default function Home() {
         <Testimonials />
         <Pricing />
         <FAQ />
-        <Footer />
       </main>
     </div>
   )

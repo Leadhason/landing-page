@@ -43,7 +43,7 @@ export default function PricingSection() {
   ]
 
   return (
-    <section className="w-full py-12 px-5 md:py-16 lg:py-20 bg-[#F7F7F7]">
+    <section className="w-full py-12 px-5 md:py-16 lg:py-20">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-4xl font-bold mb-4">Plans That Fit Your School's Needs</h2>

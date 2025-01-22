@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Demo() {
   return (
-    <section className="py-8 bg-[#F7F7F7] justify-center">
+    <section className="py-8 justify-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="aspect-w-16 aspect-h-9 mb-8 justify-center items-center">
         <iframe

@@ -10,7 +10,7 @@ export default function BusinessTypesSection() {
   ]
 
   return (
-    <section className="w-full py-8 md:py-12 lg:py-18 bg-[#F7F7F7] text-black">
+    <section className="w-full py-8 md:py-12 lg:py-18 text-black">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Built for School Administrators</h2>

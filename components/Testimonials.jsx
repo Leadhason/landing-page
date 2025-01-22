@@ -38,7 +38,7 @@ export default function TestimonialCarousel() {
   }
 
   return (
-    <section className="w-full items-center justify-center py-8 md:py-16 lg:py-18 bg-[#F7F7F7]">
+    <section className="w-full items-center justify-center py-8 md:py-16 lg:py-18">
       <div className="container">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="w-full max-w-4xl mx-auto">

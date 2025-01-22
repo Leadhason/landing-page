@@ -5,7 +5,7 @@ import { Twitter, Linkedin, Instagram, Youtube } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="w-full bg-[#1C322D] text-white">
-      <div className="container px-4 md:px-6 py-12">
+      <div className="w-full max-w-screen-xl mx-auto px-4 md:px-6 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 pb-12 border-b border-gray-700">
           <h2 className="text-2xl md:text-2xl font-semibold mb-4 md:mb-0">
             Discover the full scale of <br />
