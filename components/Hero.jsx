@@ -9,8 +9,7 @@ import { Tiles } from "@/components/ui/tiles"
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-full overflow-hidden">
-      <Tiles className="absolute inset-5 z-0" rows={15} cols={20} tileSize="sm" />
+    <div className="relative w-full h-full overflow-hidden bg-gradient-to-b from-orange-100 via-orange-50 to-transparent">
       <div className="relative z-10 flex flex-col container mx-auto">
         <main className="flex-1">
           <section className="relative">

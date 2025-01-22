@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button"
 const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/30 dark:bg-black/30 text-foreground">
-        <div className="container flex h-18 items-center justify-between w-full px-5">
+        <div className="container flex h-18 items-center justify-between w-full px-3">
           <div className="flex items-center">
             <Link href="/" className="flex items-center p-4">
               <Image

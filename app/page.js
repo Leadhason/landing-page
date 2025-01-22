@@ -12,14 +12,16 @@ import FAQ from '../components/FAQ'
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <main className="container">
+      <main className="">
         <Hero />
-        <Features />
-        <Demo />
-        <BusinessTypes />
-        <Testimonials />
-        <Pricing />
-        <FAQ />
+        <div className="container">
+          <Features />
+          <Demo />
+          <BusinessTypes />
+          <Testimonials />
+          <Pricing />
+          <FAQ />
+        </div>
       </main>
     </div>
   )
